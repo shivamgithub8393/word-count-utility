@@ -15,7 +15,7 @@ def filter_data(text_data, language):
   if language == "hindi":
     ignored_str = [',', '|', '(', ')', '[', ']', '{', '}','।', '?', ': ', ' :', '- ', ' -', '? '] 
   elif language == 'marathi':
-    ignored_str = []
+    ignored_str = [',', '|', '(', ')', '[', ']', '{', '}','।', '?', ': ', ' :', '- ', ' -', '? ']
   else:
     ignored_str = []
   for ig in ignored_str:
