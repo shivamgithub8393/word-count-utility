@@ -1,12 +1,12 @@
 
-
-got to project folder
+:: STEPS TO RUN THE PROJECT ::
+Go to project folder
 
 cd backend
 virtualenv venv
 
 source venv\Scripts\activate
-
+pip install -r requirements.txt  // only once
 python server.py
 
 
