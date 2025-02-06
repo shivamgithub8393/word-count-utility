@@ -1,6 +1,6 @@
 
 // this function is for input text 
-function submitSelected() {
+function submitData() {
   $('#res_error').text("");
   $('#download_file').html("")
   $('#res_success').text("Please wait while file is being processed ...");
